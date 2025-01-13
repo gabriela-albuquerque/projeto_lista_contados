@@ -32,4 +32,13 @@ body {
 
 .list {
   list-style-type: none;
+  padding: 0;
+}
+
+.list-item {
+  display: flex;
+}
+
+.list-item__imagem img {
+  border-radius: 50%;
 }
