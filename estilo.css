@@ -33,12 +33,33 @@ body {
 .list {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 .list-item {
   display: flex;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding: 16px;
+  gap: 16px;
 }
 
 .list-item__imagem img {
+  width: 80px;
   border-radius: 50%;
+}
+
+.list-item__content {
+  flex-grow: 1;
+}
+
+.list-item__name {
+  font-size: 24px;
+  color: #385555;
+  margin: 0;
+}
+
+.list-item__email {
+  margin: 5px 0 0;
+  color: #aaa;
 }
