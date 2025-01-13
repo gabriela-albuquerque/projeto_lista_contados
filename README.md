@@ -1,0 +1,3 @@
+Este projeto foi criado durante o curso SerFrontEnd e foi interessante para praticar novamente CSS, utilizar algumas propriedades úteis como overflow, flex-grow e opacity...
+
+Para otimizar tempo, aproveitei o mesmo html e fiz tbm uma segunda opção de estilo para explorar mais o flez-wrap. Basta trocar o nome do arquivo na importação da folha de estilo e salvar para vizualizar esta outra opção.
