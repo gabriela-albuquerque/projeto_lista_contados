@@ -44,6 +44,10 @@ body {
   gap: 16px;
 }
 
+.list-item:hover {
+  background-color: #e8e8e8;
+}
+
 .list-item__imagem img {
   width: 80px;
   border-radius: 50%;
@@ -62,4 +66,16 @@ body {
 .list-item__email {
   margin: 5px 0 0;
   color: #aaa;
+}
+
+.list-item__action {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+
+.list-item:hover .list-item__action {
+  opacity: 0.3;
 }
